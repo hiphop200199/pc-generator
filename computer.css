@@ -1,0 +1,94 @@
+body .web-container .computer {
+    position: relative;
+    perspective: 100px;
+    left: 37.5vw;
+    width: 25vw;
+    height: 45vh;
+  }
+  body .web-container .computer .speaker {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 60%;
+    left: -3%;
+    width: 4vw;
+    height: 10vh;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 238, 5);
+  }
+  body .web-container .computer .speaker .circle, body .web-container .computer .speaker .circle .incircle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5vmax;
+    height: 2.5vmax;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 238, 5);
+  }
+  body .web-container .computer .speaker .circle .incircle {
+    width: 50%;
+    height: 50%;
+  }
+  body .web-container .computer .speaker:last-child {
+    left: 86%;
+  }
+  body .web-container .computer .screen, body .web-container .computer .screen .screen-up {
+    left: 5%;
+    width: 90%;
+    height: 55%;
+    border-radius: 1vmax;
+    position: absolute;
+    border: 2px solid rgb(255, 238, 5);
+  }
+  body .web-container .computer .screen .screen-up, body .web-container .computer .screen .screen-up .screen-up {
+    left: 0;
+    width: 100%;
+    height: 80%;
+    -webkit-border-before: none;
+            border-block-start: none;
+    -webkit-border-start: none;
+            border-inline-start: none;
+    -webkit-border-end: none;
+            border-inline-end: none;
+  }
+  body .web-container .computer .neck {
+    width: 30%;
+    height: 13%;
+    left: 35%;
+    top: 55%;
+    position: absolute;
+    background-color: rgb(255, 238, 5);
+    -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+            clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    border-radius: 0 0 1.5vmax 1.5vmax;
+  }
+  body .web-container .computer .keyboards {
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(6);
+    width: 65%;
+    height: 18%;
+    left: 17.5%;
+    top: 75%;
+    position: absolute;
+    perspective: 250px;
+    border-radius: 1vmax;
+    border: 1px solid rgb(255, 238, 5);
+    transform: rotateX(50deg);
+  }
+  body .web-container .computer .keyboards .keyboard {
+    border: 1px solid rgb(255, 238, 5);
+  }
+  body .web-container .computer .keyboards .keyboard:first-child {
+    border-radius: 1vmax 0 0 0;
+  }
+  body .web-container .computer .keyboards .keyboard:nth-child(10) {
+    border-radius: 0 1vmax 0 0;
+  }
+  body .web-container .computer .keyboards .keyboard:nth-child(51) {
+    border-radius: 0 0 0 1vmax;
+  }
+  body .web-container .computer .keyboards .keyboard:last-child {
+    border-radius: 0 0 1vmax;
+  }
