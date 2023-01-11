@@ -1,7 +1,6 @@
 body .web-container .computer {
     position: relative;
     perspective: 100px;
-    left: 37.5vw;
     width: 25vw;
     height: 45vh;
   }

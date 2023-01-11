@@ -1,0 +1,60 @@
+.adjust-justify-content{
+    justify-content: space-evenly;
+}
+.adjust-main-height{
+    height: 55vh;
+}
+.adjust-footer-height{
+    height: 35vh;
+}
+.pc-gen-header{
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    width: 100%;
+}
+.add-text-center{
+    text-align: center;
+}
+.clipboard-area{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    width: 95%;
+    height: 95%;
+    background-color: #ffffff;
+   border: 1px solid  #363534;
+   border-radius: 1vh;
+   font-size: 1.5vw;
+   color:#363534;
+   overflow-y: scroll;
+}
+.clipboard-html-code{
+    border-inline-end: 1px solid #363534;
+    border-radius: 1vh;
+}
+.clipboard-css-code{
+    border-inline-start: 1px solid #363534;
+    border-radius: 1vh;
+}
+::-webkit-scrollbar{
+    width: 1vw;    
+    height: 100vh;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #8993B2;
+    border-radius: 1vmax;
+}
+::-webkit-scrollbar-track{
+   
+    background-color: #363534;
+    border-radius: 1vmax;
+}
+.clipboard-button{
+    position: absolute;
+    right: 2%;
+    top:1%;
+    font-size: 3vw;
+   cursor: pointer;
+}
