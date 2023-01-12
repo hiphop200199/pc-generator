@@ -185,6 +185,12 @@ document.addEventListener("DOMContentLoaded",function(){
         margin: 0;
         box-sizing: border-box;
       }
+      body .web-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
       body .web-container .computer {
         position: relative;
         perspective: ${keyboardPerspective.value}px;
@@ -312,6 +318,12 @@ document.addEventListener("DOMContentLoaded",function(){
         padding: 0;
         margin: 0;
         box-sizing: border-box;
+      }
+      body .web-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
       }
       body .web-container .computer {
         position: relative;
