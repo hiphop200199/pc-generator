@@ -149,48 +149,48 @@ document.addEventListener("DOMContentLoaded",function(){
    
    okBtn.addEventListener("click",function(){
     if(keyboardNumber.value==6){
-        let kbd60=` <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div><div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div>
-    <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div>
-
-    <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div>
-    <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div>
-    <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div>
-    <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div>
-
-    <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div>
-    <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div>
-    <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div>
-    <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div>
-    <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div>
+        let kbd60=` <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div><div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div>
+    <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div>
+    <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div>
+    <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div>
+    <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div>
+    <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div>
+    <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div>
+    <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div>
+    <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div>
+    <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div>
+    <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div>
     `;
         htmlCode.innerText=
         `<div class="web-container">
-          <section class="computer" style="scale:${totalScale.value};perspective:${keyboardPerspective.value}px">
-          <div class="speaker" style="scale:${speakerScale.value};border-color:${totalBorderColor.value};left:${speaker1Position.value}%">
-            <div class="circle" style="border-color:${totalBorderColor.value}"><div class="incircle" style="border-color:${totalBorderColor.value}"></div></div>
+          <section class="computer">
+          <div class="speaker">
+            <div class="circle" ><div class="incircle" ></div></div>
           </div>
-          <div class="screen" style="border-color:${totalBorderColor.value};left:${screenLeft.value}%;width:${screenWidth.value}%">
-            <div class="screen-up" style="background-color:${screenBackgroundColor.value} ;border-color: ${totalBorderColor.value};"></div></div>
-          <div class="neck" style="background-color:${totalBorderColor.value}"></div>
-          <div class="keyboards" style="border-color: ${totalBorderColor.value}">   
+          <div class="screen" >
+            <div class="screen-up"></div></div>
+          <div class="neck" ></div>
+          <div class="keyboards" >   
            ${kbd60}
           </div>
-          <div class="speaker" style="scale:${speakerScale.value};border-color:${totalBorderColor.value};left:${speaker2Position.value}%">
-            <div class="circle" style="border-color:${totalBorderColor.value}"><div class="incircle" style="border-color:${totalBorderColor.value}"></div></div>
+          <div class="speaker" >
+            <div class="circle" ><div class="incircle" ></div></div>
           </div>
         </section>
       </div>`;
-      cssCode.innerText=`* {
+
+      cssCode.innerText=
+      `*{
         padding: 0;
         margin: 0;
         box-sizing: border-box;
       }
       body .web-container .computer {
         position: relative;
-        perspective: 100px;
+        perspective: ${keyboardPerspective.value}px;
         width: 25vw;
         height: 45vh;
-        scale: 1;
+        scale: ${totalScale.value};
       }
       body .web-container .computer .speaker {
         position: absolute;
@@ -198,12 +198,12 @@ document.addEventListener("DOMContentLoaded",function(){
         justify-content: center;
         align-items: center;
         top: 60%;
-        left: -3%;
+        left: ${speaker1Position.value}%;
         width: 4vw;
         height: 10vh;
         border-radius: 5px;
-        border: 2px solid #ffee05;
-        scale: 1;
+        border: 2px solid ${totalBorderColor.value};
+        scale: ${speakerScale.value};
       }
       body .web-container .computer .speaker .circle, body .web-container .computer .speaker .circle .incircle {
         display: flex;
@@ -212,22 +212,22 @@ document.addEventListener("DOMContentLoaded",function(){
         width: 2.5vmax;
         height: 2.5vmax;
         border-radius: 50%;
-        border: 2px solid rgb(255, 238, 5);
+        border: 2px solid ${totalBorderColor.value};
       }
       body .web-container .computer .speaker .circle .incircle {
         width: 50%;
         height: 50%;
       }
       body .web-container .computer .speaker:last-child {
-        left: 86%;
+        left: ${speaker2Position.value}%;
       }
       body .web-container .computer .screen, body .web-container .computer .screen .screen-up {
-        left: 5%;
-        width: 90%;
+        left: ${screenLeft.value}%;
+        width: ${screenWidth.value}%;
         height: 55%;
         border-radius: 1vmax;
         position: absolute;
-        border: 2px solid rgb(255, 238, 5);
+        border: 2px solid ${totalBorderColor.value};
         
       }
       body .web-container .computer .screen .screen-up, body .web-container .computer .screen .screen-up .screen-up {
@@ -240,7 +240,7 @@ document.addEventListener("DOMContentLoaded",function(){
                 border-inline-start: none;
         -webkit-border-end: none;
                 border-inline-end: none;
-                background-color: rgb(255,255,255);
+                background-color: ${screenBackgroundColor.value};
       }
       body .web-container .computer .neck {
         width: 30%;
@@ -248,7 +248,7 @@ document.addEventListener("DOMContentLoaded",function(){
         left: 35%;
         top: 55%;
         position: absolute;
-        background-color: rgb(255, 238, 5);
+        background-color: ${totalBorderColor.value};
         -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
                 clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
         border-radius: 0 0 1.5vmax 1.5vmax;
@@ -263,11 +263,11 @@ document.addEventListener("DOMContentLoaded",function(){
         position: absolute;
         perspective: 250px;
         border-radius: 1vmax;
-        border: 1px solid rgb(255, 238, 5);
+        border: 1px solid ${totalBorderColor.value};
         transform: rotateX(50deg);
       }
       body .web-container .computer .keyboards .keyboard {
-        border: 1px solid rgb(255, 238, 5);
+        border: 1px solid ${totalBorderColor.value};
       }
       body .web-container .computer .keyboards .keyboard:first-child {
         border-radius: 1vmax 0 0 0;
@@ -283,132 +283,132 @@ document.addEventListener("DOMContentLoaded",function(){
       }`;
     }
    if(keyboardNumber.value==3){
-    let kbd30=`<div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div>
-    <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div>
-    <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div>
-
-    <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div>
-    <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div>
-    <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div> <div class="keyboard" style="border-color: ${totalBorderColor.value}"></div>
+    let kbd30=`<div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div>
+    <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div>
+    <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div>
+    <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div>
+    <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div>
+    <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div> <div class="keyboard" ></div>
     `;
     htmlCode.innerText=` <div class="web-container">
-    <section class="computer" style="scale:${totalScale.value};perspective:${keyboardPerspective.value}px">
-      <div class="speaker" style="scale:${speakerScale.value};border-color:${totalBorderColor.value};left:${speaker1Position.value}%">
-        <div class="circle" style="border-color:${totalBorderColor.value}"><div class="incircle" style="border-color:${totalBorderColor.value}"></div></div>
+    <section class="computer" >
+      <div class="speaker" >
+        <div class="circle" ><div class="incircle" ></div></div>
       </div>
-      <div class="screen" style="border-color:${totalBorderColor.value};left:${screenLeft.value}%;width:${screenWidth.value}%">
-        <div class="screen-up" style="background-color:${screenBackgroundColor.value} ;border-color: ${totalBorderColor.value};"></div>></div>
+      <div class="screen" >
+        <div class="screen-up" ></div>></div>
       </div>
-      <div class="neck" style="background-color:${totalBorderColor.value}"></div>
-      <div class="keyboards" style="border-color: ${totalBorderColor.value}">   
+      <div class="neck" ></div>
+      <div class="keyboards" >   
        ${kbd30}
       </div>
-      <div class="speaker" style="scale:${speakerScale.value};border-color:${totalBorderColor.value};left:${speaker2Position.value}%">
-        <div class="circle" style="border-color:${totalBorderColor.value}"><div class="incircle" style="border-color:${totalBorderColor.value}"></div></div>
+      <div class="speaker" >
+        <div class="circle" ><div class="incircle" ></div></div>
       </div>
     </section>
   </div>`;
-  cssCode.innerText=`* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  body .web-container .computer {
-    position: relative;
-    perspective: 100px;
-    width: 25vw;
-    height: 45vh;
-    scale: 1;
-  }
-  body .web-container .computer .speaker {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 60%;
-    left: -3%;
-    width: 4vw;
-    height: 10vh;
-    border-radius: 5px;
-    border: 2px solid #ffee05;
-    scale: 1;
-  }
-  body .web-container .computer .speaker .circle, body .web-container .computer .speaker .circle .incircle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 2.5vmax;
-    height: 2.5vmax;
-    border-radius: 50%;
-    border: 2px solid rgb(255, 238, 5);
-  }
-  body .web-container .computer .speaker .circle .incircle {
-    width: 50%;
-    height: 50%;
-  }
-  body .web-container .computer .speaker:last-child {
-    left: 86%;
-  }
-  body .web-container .computer .screen, body .web-container .computer .screen .screen-up {
-    left: 5%;
-    width: 90%;
-    height: 55%;
-    border-radius: 1vmax;
-    position: absolute;
-    border: 2px solid rgb(255, 238, 5);
-    
-  }
-  body .web-container .computer .screen .screen-up, body .web-container .computer .screen .screen-up .screen-up {
-    left: 0;
-    width: 100%;
-    height: 80%;
-    -webkit-border-before: none;
-            border-block-start: none;
-    -webkit-border-start: none;
-            border-inline-start: none;
-    -webkit-border-end: none;
-            border-inline-end: none;
-            background-color: rgb(255,255,255);
-  }
-  body .web-container .computer .neck {
-    width: 30%;
-    height: 13%;
-    left: 35%;
-    top: 55%;
-    position: absolute;
-    background-color: rgb(255, 238, 5);
-    -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
-            clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
-    border-radius: 0 0 1.5vmax 1.5vmax;
-  }
-  body .web-container .computer .keyboards {
-    display: grid;
-    grid-template-columns: repeat(10, 10%);
-    width: 65%;
-    height: 18%;
-    left: 17.5%;
-    top: 75%;
-    position: absolute;
-    perspective: 250px;
-    border-radius: 1vmax;
-    border: 1px solid rgb(255, 238, 5);
-    transform: rotateX(50deg);
-  }
-  body .web-container .computer .keyboards .keyboard {
-    border: 1px solid rgb(255, 238, 5);
-  }
-  body .web-container .computer .keyboards .keyboard:first-child {
-    border-radius: 1vmax 0 0 0;
-  }
-  body .web-container .computer .keyboards .keyboard:nth-child(10) {
-    border-radius: 0 1vmax 0 0;
-  }
-  body .web-container .computer .keyboards .keyboard:nth-child(51) {
-    border-radius: 0 0 0 1vmax;
-  }
-  body .web-container .computer .keyboards .keyboard:last-child {
-    border-radius: 0 0 1vmax;
-  }`;
+  cssCode.innerText=
+      `*{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body .web-container .computer {
+        position: relative;
+        perspective: ${keyboardPerspective.value}px;
+        width: 25vw;
+        height: 45vh;
+        scale: ${totalScale.value};
+      }
+      body .web-container .computer .speaker {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 60%;
+        left: ${speaker1Position.value}%;
+        width: 4vw;
+        height: 10vh;
+        border-radius: 5px;
+        border: 2px solid ${totalBorderColor.value};
+        scale: ${speakerScale.value};
+      }
+      body .web-container .computer .speaker .circle, body .web-container .computer .speaker .circle .incircle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 2.5vmax;
+        height: 2.5vmax;
+        border-radius: 50%;
+        border: 2px solid ${totalBorderColor.value};
+      }
+      body .web-container .computer .speaker .circle .incircle {
+        width: 50%;
+        height: 50%;
+      }
+      body .web-container .computer .speaker:last-child {
+        left: ${speaker2Position.value}%;
+      }
+      body .web-container .computer .screen, body .web-container .computer .screen .screen-up {
+        left: ${screenLeft.value}%;
+        width: ${screenWidth.value}%;
+        height: 55%;
+        border-radius: 1vmax;
+        position: absolute;
+        border: 2px solid ${totalBorderColor.value};
+        
+      }
+      body .web-container .computer .screen .screen-up, body .web-container .computer .screen .screen-up .screen-up {
+        left: 0;
+        width: 100%;
+        height: 80%;
+        -webkit-border-before: none;
+                border-block-start: none;
+        -webkit-border-start: none;
+                border-inline-start: none;
+        -webkit-border-end: none;
+                border-inline-end: none;
+                background-color: ${screenBackgroundColor.value};
+      }
+      body .web-container .computer .neck {
+        width: 30%;
+        height: 13%;
+        left: 35%;
+        top: 55%;
+        position: absolute;
+        background-color: ${totalBorderColor.value};
+        -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+                clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+        border-radius: 0 0 1.5vmax 1.5vmax;
+      }
+      body .web-container .computer .keyboards {
+        display: grid;
+        grid-template-columns: repeat(10, 10%);
+        width: 65%;
+        height: 18%;
+        left: 17.5%;
+        top: 75%;
+        position: absolute;
+        perspective: 250px;
+        border-radius: 1vmax;
+        border: 1px solid ${totalBorderColor.value};
+        transform: rotateX(50deg);
+      }
+      body .web-container .computer .keyboards .keyboard {
+        border: 1px solid ${totalBorderColor.value};
+      }
+      body .web-container .computer .keyboards .keyboard:first-child {
+        border-radius: 1vmax 0 0 0;
+      }
+      body .web-container .computer .keyboards .keyboard:nth-child(10) {
+        border-radius: 0 1vmax 0 0;
+      }
+      body .web-container .computer .keyboards .keyboard:nth-child(51) {
+        border-radius: 0 0 0 1vmax;
+      }
+      body .web-container .computer .keyboards .keyboard:last-child {
+        border-radius: 0 0 1vmax;
+      }`;
    }
    })
    
