@@ -23,20 +23,17 @@
     grid-template-columns: repeat(2,50%);
     width: 95%;
     height: 95%;
-    background-color: #ffffff;
    border: 1px solid  #363534;
    border-radius: 1vh;
    font-size: 1.5vw;
    color:#363534;
-   overflow-y: scroll;
 }
-.clipboard-html-code{
+.clipboard-html-code,.clipboard-css-code{
+    position: relative;
+    padding: 1vmax;
     border-inline-end: 1px solid #363534;
     border-radius: 1vh;
-}
-.clipboard-css-code{
-    border-inline-start: 1px solid #363534;
-    border-radius: 1vh;
+    overflow-y: scroll;
 }
 ::-webkit-scrollbar{
     width: 1vw;    
@@ -51,10 +48,15 @@
     background-color: #363534;
     border-radius: 1vmax;
 }
-.clipboard-button{
+.clipboard-css-button{
     position: absolute;
     right: 2%;
     top:1%;
     font-size: 3vw;
-   cursor: pointer;
+}
+.clipboard-html-button{
+    position: absolute;
+    left: 44%;
+    top:1%;
+    font-size: 3vw;
 }

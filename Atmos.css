@@ -237,6 +237,29 @@ padding: 0.2vmax;
   padding: 0.3vmax;
   font-family: "Hina Mincho";
 }
+.spring-input-range{
+  appearance: none;
+    margin-inline: 0.5vmax;
+    background-color: transparent;
+  }
+  .spring-input-range::-webkit-slider-runnable-track{
+    width: 100%;
+    height: 1vmax;
+    background-color: #ffd0e253;
+    border-radius: 0.5vmax;
+    border: 1.5px solid #5897f6;
+  }
+  .spring-input-range::-webkit-slider-thumb{
+    height: 1.8vmax;
+    width: 1.5vmax;
+    translate: 0 -0.4vmax;
+    border-radius: 100vmax;
+    border: 1.5px solid #5897f6;
+    background-color: #ffd0e2;
+    cursor: pointer;
+   -webkit-appearance: none;
+  
+  }
 .spring-input-submit{
   outline:1.5px solid #5897f6;
   border-radius: 0.2vmax;
@@ -494,6 +517,25 @@ padding: 0.5vmax;
   padding: 0.1vmax;
   font-family: 'Share Tech Mono', monospace;
 }
+.tech-input-range{
+  appearance: none;
+    margin-inline: 0.5vmax;
+    background-color: transparent;
+  }
+  .tech-input-range::-webkit-slider-runnable-track{
+    width: 100%;
+    height: 1vmax;
+    border: 1.5px solid #00E4FF;
+  }
+  .tech-input-range::-webkit-slider-thumb{
+    height: 2.5vmax;
+    width: 2vmax;
+    translate: 0 -0.75vmax;
+    clip-path: polygon(58% 0, 0 35%, 39% 99%, 100% 21%);
+   background-color: #00E4FF;
+    cursor: pointer;
+   -webkit-appearance: none;
+  }
 .tech-input-submit{
   outline:1.5px solid #00E4FF;
   border: none;
@@ -763,6 +805,29 @@ padding: 0.2vmax;
   padding: 0.3vmax;
   font-family: 'Caveat', cursive;
 }
+.caramel-input-range{
+appearance: none;
+  margin-inline: 0.5vmax;
+  background-color: transparent;
+}
+.caramel-input-range::-webkit-slider-runnable-track{
+  width: 100%;
+  height: 1vmax;
+  background-color: #E3D0B0;
+  border-radius: 0.5vmax;
+  border: 1.5px solid #411F0B;
+}
+.caramel-input-range::-webkit-slider-thumb{
+  height: 2vmax;
+  width: 2vmax;
+  translate: 0 -0.5vmax;
+  border-radius: 100vmax;
+  border: 1.5px solid #411F0B;
+ background-color: #C48542;
+  cursor: pointer;
+ -webkit-appearance: none;
+
+}
 .caramel-input-submit{
   outline:1.5px solid #411F0B;
   border-radius: 0.5vmax;
@@ -772,7 +837,7 @@ padding: 0.2vmax;
   caret-color: #411F0B;
   background-color: #E3D0B0;
   color: #411F0B;
-  padding: 0.2vmax;
+  padding: 0.3vmax;
   font-family: 'Caveat', cursive;
 }
 .caramel-aside{
@@ -1018,6 +1083,29 @@ padding: 0.5vmax;
   color: #363534;
   padding: 0.2vmax;
 }
+.clean-input-range{
+  appearance: none;
+    margin-inline: 0.5vmax;
+    background-color: transparent;
+  }
+  .clean-input-range::-webkit-slider-runnable-track{
+    width: 100%;
+    height: 1.1vmax;
+    background-color: #ffffff;
+    border-radius: 2px;
+    border: 1.5px solid #363534;
+  }
+  .clean-input-range::-webkit-slider-thumb{
+    height: 2.4vmax;
+    width: 1.1vmax;
+    translate: 0 -0.65vmax;
+    border-radius: 5px;
+    border: 1.5px solid #363534;
+   background-color: #ffffff;
+    cursor: pointer;
+   -webkit-appearance: none;
+  
+  }
 .clean-input-submit{
   outline:1.5px solid #363534;
   border: none;
@@ -1279,7 +1367,29 @@ padding: 0.2vmax;
   font-family: 'Yeon Sung', cursive;
 }
 
-
+.lava-input-range{
+  appearance: none;
+    margin-inline: 0.5vmax;
+    background-color: transparent;
+  }
+  .lava-input-range::-webkit-slider-runnable-track{
+    width: 100%;
+    height: 0.8vmax;
+    background-color: #C23B20;
+    border-radius: 100vmax;
+    border: 1.5px solid #ffdc7f;
+  }
+  .lava-input-range::-webkit-slider-thumb{
+    height: 2.5vmax;
+    width: 2.5vmax;
+    translate: 0 -0.85vmax;
+    border: 1.5px solid #ffdc7f;
+    border-radius: 54% 46% 77% 23% / 52% 52% 48% 48% ;
+    background-image: linear-gradient(-55deg,#0D1218,#C23B20,#30435B);
+    cursor: pointer;
+   -webkit-appearance: none;
+  
+  }
 .lava-input-submit{
   outline:1.5px solid #ffdc7f;
   border-radius: 73% 27% 64% 36% / 47% 51% 49% 53% ;
@@ -1547,6 +1657,29 @@ padding: 0.2vmax;
   color: #FAF7E2;
   padding: 0.3vmax;
 }
+.sea-input-range{
+  appearance: none;
+    margin-inline: 0.5vmax;
+    background-color: transparent;
+  }
+  .sea-input-range::-webkit-slider-runnable-track{
+    width: 100%;
+    height: 0.8vmax;
+    background-image: linear-gradient(55deg,#0B8CEA,#088ceaa7);
+    border-radius: 0.5vmax;
+  
+  }
+  .sea-input-range::-webkit-slider-thumb{
+    height: 2vmax;
+    width: 2vmax;
+    translate: 0 -0.6vmax;
+    background-image: linear-gradient(55deg,#0E2063,#0B8CEA);
+    border-radius: 42% 58% 58% 42% / 51% 50% 50% 49%  ;
+   
+    cursor: pointer;
+   -webkit-appearance: none;
+  
+  }
 .sea-input-submit{
   border-radius: 40% 60% 48% 52% / 54% 50% 50% 46% ;
   border: none;
