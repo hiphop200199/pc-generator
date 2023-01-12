@@ -2,7 +2,7 @@
     justify-content: space-evenly;
 }
 .adjust-main-height{
-    height: 55vh;
+    height: 70vh;
 }
 .adjust-footer-height{
     height: 35vh;
@@ -53,10 +53,12 @@
     right: 2%;
     top:1%;
     font-size: 3vw;
+    cursor: pointer;
 }
 .clipboard-html-button{
     position: absolute;
     left: 44%;
     top:1%;
     font-size: 3vw;
+    cursor: pointer;
 }

@@ -11,44 +11,53 @@
     <link rel="stylesheet" href="pc.css" />
     <link rel="stylesheet" href="Atmos.css" />
     <link rel="stylesheet" href="adjust-style.css" />
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.10/dist/clipboard.min.js"></script>
     <title>pc-generator</title>
   </head>
   <body>
     <div class="clean-container">
       <header class="pc-gen-header">
         <h1 class="clean-h1">PC-generator</h1>
-        <code class="clean-h4 add-text-center"
-          >&lt;link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/gh/hiphop200199/some-picture@main/computer.css"/&gt;</code
-        >
       </header>
 
       <div class="clean-main adjust-justify-content adjust-main-height">
         <form class="clean-form">
           <label class="clean-label"
-            >total scale:<input type="range" name="" id="total-scale"
+            >total scale:<input class="clean-input-range" type="range" name="" id="total-scale" step="0.01" min="0.10" max="1.20"
+          /><span class="show-total-scale clean-p"></span></label>
+        
+          <label class="clean-label"
+            >total border color: <input class="clean-input-color" type="color" name="" id="total-border-color" value="#ffee05"
           /></label>
           <label class="clean-label"
-            >total border color: <input type="color" name="" id="total-border-color"
+            >screen left:<input class="clean-input-range" type="range" name="" id="screen-left"
+          /><span class="show-screen-left clean-p"></span></label>
+          
+          <label class="clean-label"
+            >screen width:<input class="clean-input-range" type="range" name="" id="screen-width"
+          /><span class="show-screen-width clean-p"></span></label>
+          
+          <label class="clean-label"
+            >screen background color: <input class="clean-input-color" type="color" name="" id="screen-background-color" value="#ffffff"
           /></label>
           <label class="clean-label"
-            >screen width:<input type="range" name="" id="screen-width"
-          /></label>
+            >speaker scale:<input class="clean-input-range" type="range" name="" id="speaker-scale" step="0.01" min="0.20" max="1.3"
+          /><span class="show-speaker-scale clean-p"></span></label>
+         
           <label class="clean-label"
-            >screen background color: <input type="color" name="" id="screen-background-color"
-          /></label>
+            >speaker1 position:<input class="clean-input-range" type="range" name="" id="speaker1-position" min="-10"
+          /><span class="show-speaker1-position clean-p"></span></label>
           <label class="clean-label"
-            >speaker width:<input type="range" name="" id="speaker-width"
-          /></label>
+          >speaker2 position:<input class="clean-input-range" type="range" name="" id="speaker2-position" min="-10"
+        /><span class="show-speaker2-position clean-p"></span></label>
           <label class="clean-label"
-            >speaker position:<input type="range" name="" id="speaker-position"
-          /></label>
+            >keyboard number:<input class="clean-input-range" type="range" name="" id="keyboard-number" step="3" min="3" max="6" 
+          /><span class="show-keyboard-number clean-p"></span></label>
           <label class="clean-label"
-            >keyboard number:<input type="range" name="" id="keyboard-number"
-          /></label>
-          <label class="clean-label"
-            >keyboard perspective:<input type="range" name="" id="keyboard-perspective"
-          /></label>
+            >keyboard perspective:<input class="clean-input-range" type="range" name="" id="keyboard-perspective" min="40" max="500"
+          /><span class="show-keyboard-perspective clean-p"></span></label>
+          <button id="ok-button" type="button" class="clean-button">ok!</button>
         </form>
         <div class="web-container">
           <section class="computer">
@@ -129,191 +138,15 @@
       </div>
       <div class="clean-footer adjust-footer-height">
         <div class="clipboard-area">
-          <div class="clipboard-html-code"></div>
-            <div class="clipboard-css-code"></div>
-            <div class="clipboard-html-button" title="Copy">&#128203;</div>
-            <div class="clipboard-css-button" title="Copy">&#128203;</div>
+          <div class="clipboard-html-code"><h4 class="clean-h4">HTML</h4></div>
+            <div class="clipboard-css-code"><h4 class="clean-h4">CSS</h4></div>
+            <div class="clipboard-html-button" data-clipboard-target=".clipboard-html-code" title="Copy">&#128203;</div>
+            <div class="clipboard-css-button" data-clipboard-target=".clipboard-css-code" title="Copy">&#128203;</div>
           </div>
         </div>
       </div>
     </div>
-    <script>
-      let htmlCode=document.querySelector(".clipboard-html-code");
-      let cssCode=document.querySelector(".clipboard-css-code");
-      htmlCode.innerText=` <div class="web-container">
-          <section class="computer">
-            <div class="speaker">
-              <div class="circle"><div class="incircle"></div></div>
-            </div>
-            <div class="screen">
-              <div class="screen-up"></div>
-            </div>
-            <div class="neck"></div>
-            <div class="keyboards">
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-              <div class="keyboard"></div>
-            </div>
-            <div class="speaker">
-              <div class="circle"><div class="incircle"></div></div>
-            </div>
-          </section>
-        </div>`;
-      cssCode.innerText=`* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-body .web-container .computer {
-    position: relative;
-    perspective: 100px;
-    width: 25vw;
-    height: 45vh;
-  }
-  body .web-container .computer .speaker {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 60%;
-    left: -3%;
-    width: 4vw;
-    height: 10vh;
-    border-radius: 5px;
-    border: 2px solid rgb(255, 238, 5);
-  }
-  body .web-container .computer .speaker .circle, body .web-container .computer .speaker .circle .incircle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 2.5vmax;
-    height: 2.5vmax;
-    border-radius: 50%;
-    border: 2px solid rgb(255, 238, 5);
-  }
-  body .web-container .computer .speaker .circle .incircle {
-    width: 50%;
-    height: 50%;
-  }
-  body .web-container .computer .speaker:last-child {
-    left: 86%;
-  }
-  body .web-container .computer .screen, body .web-container .computer .screen .screen-up {
-    left: 5%;
-    width: 90%;
-    height: 55%;
-    border-radius: 1vmax;
-    position: absolute;
-    border: 2px solid rgb(255, 238, 5);
-  }
-  body .web-container .computer .screen .screen-up, body .web-container .computer .screen .screen-up .screen-up {
-    left: 0;
-    width: 100%;
-    height: 80%;
-    -webkit-border-before: none;
-            border-block-start: none;
-    -webkit-border-start: none;
-            border-inline-start: none;
-    -webkit-border-end: none;
-            border-inline-end: none;
-  }
-  body .web-container .computer .neck {
-    width: 30%;
-    height: 13%;
-    left: 35%;
-    top: 55%;
-    position: absolute;
-    background-color: rgb(255, 238, 5);
-    -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
-            clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
-    border-radius: 0 0 1.5vmax 1.5vmax;
-  }
-  body .web-container .computer .keyboards {
-    display: grid;
-    grid-template-columns: repeat(10, 10%);
-    grid-template-rows: repeat(6);
-    width: 65%;
-    height: 18%;
-    left: 17.5%;
-    top: 75%;
-    position: absolute;
-    perspective: 250px;
-    border-radius: 1vmax;
-    border: 1px solid rgb(255, 238, 5);
-    transform: rotateX(50deg);
-  }
-  body .web-container .computer .keyboards .keyboard {
-    border: 1px solid rgb(255, 238, 5);
-  }
-  body .web-container .computer .keyboards .keyboard:first-child {
-    border-radius: 1vmax 0 0 0;
-  }
-  body .web-container .computer .keyboards .keyboard:nth-child(10) {
-    border-radius: 0 1vmax 0 0;
-  }
-  body .web-container .computer .keyboards .keyboard:nth-child(51) {
-    border-radius: 0 0 0 1vmax;
-  }
-  body .web-container .computer .keyboards .keyboard:last-child {
-    border-radius: 0 0 1vmax;
-  }`;
-    </script>
   </body>
 </html>
+
+
